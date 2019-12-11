@@ -8,7 +8,7 @@ Client public key: See contents of **client_pub_key.pem**
 Client private key: See contents of **client_key.pem**  
  
 Installation token (obtained via ```/v1/installation``` endpoint):  
-7aad5c4e145206d1e694e0e819d6ff51db4e900d25dad2a03575ce07cd84669a
+```7aad5c4e145206d1e694e0e819d6ff51db4e900d25dad2a03575ce07cd84669a```
 
 String to sign (client public key + installation token). **StringToSign.txt**:  
 ```
