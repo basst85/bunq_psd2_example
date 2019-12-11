@@ -1,5 +1,7 @@
 # bunq PSD2 example
 
+**Tested in the Sandbox environment.**
+
 PSD2 private key: See contents of **key.pem**  
 PSD2 public certificate: See contents of **cert.pem**  
 PSD2 public certificate chain: See contents of **cert.pem**  
