@@ -40,3 +40,6 @@ HTTP request data to sign (Create value for **X-Bunq-Client-Signature** header):
 Create signature (X-Bunq-Client-Signature header value):  
 ```openssl dgst -sha256 -sign client_key.pem -out HeaderSignature.txt HttpRequest.txt```  
 ```openssl enc -base64 -in HeaderSignature.txt -out HeaderSignatureEncoded.txt```  
+
+## Postman screenshot
+![screenshot](https://github.com/basst85/bunq_psd2_example/raw/master/image.png)
