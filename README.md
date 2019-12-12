@@ -1,10 +1,10 @@
-# bunq PSD2 example
+# bunq PSD2 example, get PSP credential
 
 **Tested in the Sandbox environment.**
 
 PSD2 private key: See contents of **key.pem**  
-PSD2 public certificate: See contents of **cert.pem**  
-PSD2 public certificate chain: See contents of **cert.pem**  
+PSD2 public certificate: See contents of **cert.cert**  
+PSD2 public certificate chain: See contents of **cert.cert**  
 
 Client public key: See contents of **client_pub_key.pem**  
 Client private key: See contents of **client_key.pem**  
@@ -32,7 +32,7 @@ Create signature:
 
 Signature:  
 ```
-zV9vWMZRl8mblmr9nMQrkL31ySk7bhf2ecIhq9Z2wrPnO4QdDX0o4lR7ociJ6vvusrYMAA//RhzZQm3fWi8rYsdh/uMa/4kV2+iPM+GXmbfmLA5TIt+CD2c/D2jvkVhp7tJ7SJ7S2NficZrLE0SniRmjdtZzvrLDFlbSMP3wDjXTvQt+xFJ30fy4G4sK5GtXEBgai69n59O7ip2BY5WzvNCPAJL3KRkPSuvVhe0s4HNZg5J6CS37n67ggd0lGL+EUcnlGuS13uT8D1OGUOQM1ZlzfL1uN7M65LCW6WUtsjp5w3meihgnC+lEKFRw/49RpMlDkOEoqKCZAtVTUp/XpsIK4pxlD0IxRmMXDlkTf19sLkZAVnKDL1I3w8H7sHMshdFdlHgUyhnNBflnGtEbW7LeFQN17f1M2u5R5Xi9SbiP+oedflTG3q8ypYG3C651ryTXGCsI5+zhrrS8u0DrnQj4n+Ty0xhkDIVIOzjDNJS9LMVDpFxSUreXD+VWgQFHCog1hX3B3w6gSlMYFII7L0LZebir6VKatIu/CNs0Drby3zKmnPn9bFWgjGvNbzgyhQ9A1wgo2FG7EI7UKlJSBgiJy5UcoA/M7tK94vW/Y8eQuEgscBp0XsnBGt09UfgFOKiN3moXOuwaFmSiXZ8ZnAiTdqtFnVdb5+yugPnGVeI=
+ITii4Kn2W/yJFnsNmC5vlumpq2NB9Nn51u+oowjGBuaY0z7F9B8UCf6c/Jzn75ZroHpv1oAGaNo5q7hrfU3Ev2vUNWKCvIJ6+OZ4JMAj8I67m9+6xKHM2KEQU9KNaJUYowsE2JQ7HwKUvXGMLCCX68Xv+jUTn1SNGai1mLYMMuSxirl0QVxfsQrs/Q0Z9sIJlWI+B0QganmfTYjelTO1+xQvtJQLXIZe3xQfsVIa0Xg6+UbRtyYlQUiQjq52kvVt/GuUcpGEZdwFdHtool0eo/uxPN5sHHYf/m2++2sJmF7D7pt99c0uL/5d1ef4yUTpvHIFNAsxlkBPpAPT1eyWUA==
 ```
 
 HTTP request data to sign (Create value for **X-Bunq-Client-Signature** header): See contents of **HttpRequest.txt**
