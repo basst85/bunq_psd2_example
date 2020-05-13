@@ -10,20 +10,20 @@ Client public key: See contents of **client_pub_key.pem**
 Client private key: See contents of **client_key.pem**  
  
 Installation token (obtained via ```/v1/installation``` endpoint):  
-```7aad5c4e145206d1e694e0e819d6ff51db4e900d25dad2a03575ce07cd84669a```
+```ff97433160e538aef186b5a543b121ec7c7c6d7e2116137a081ffe0fa8c82aa8```
 
 String to sign (client public key + installation token). **StringToSign.txt**:  
 ```
------BEGIN PUBLIC KEY-----  
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmOfPBFF6P9E+V6b35+cl  
-Z3PbWfkMu/Eo2kuLA3If12BBNIfmiNSYGpZdw3YanQbZ9y0io6nKG9dxPdRgOvQ2  
-zPNOjSI4PSNA5UTVIdGpbcsFnLYvaedJh3ZZ+SUSXUOIVBDfhZY1cDAwIcuMZxpg  
-x4Wd9zHX057275XSOU0LNShVtzenXycoSe6IeI0bgBNhE1M6k1Tr6BJZmMR1+EHm  
-WTc8PF34hubvEMuBPmuQO955fmjdGSUrOOXcxsj+I1t/H2fnVVVJ1XO8d6vxMKiU  
-hhzQ53CS6QHxwnsH7DF07Sb5gUobvvOotqnQDC9jKTVK78lOdqtM7KeqbVhLeOBl  
-EQIDAQAB  
------END PUBLIC KEY-----  
-7aad5c4e145206d1e694e0e819d6ff51db4e900d25dad2a03575ce07cd84669a
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsS0F3O//51rkOEO49he/
+gyCIQm96fFQMVfYWesHRoUhX8uVgKivjNF/XIjJrE13n0f+fSuMdguUrO0SPM1aA
+1Yg7xylLCXqhutRrt1vks656eWBgrBPM+j1vUpmFgkNnl+wacZxb1E5JcDmOYJeU
+vwI9B2iIn3EihlrzJSxrzQNpnpy+n4UC3l0IQ8sLu1Ue4KcKaWwXEMfmAYOLSume
+s2accllGkWLbTQFkPdXsmft7fDtEsSa3I18F7JNlSDlGD8joj+IWJAZ/ujv47omY
+1+nmmJoNq+OxG96pdhMDHLBSPqUoRIidxgXt1k+klmWyfTH5RtzbELl8L0RNyDIL
+CwIDAQAB
+-----END PUBLIC KEY-----
+ff97433160e538aef186b5a543b121ec7c7c6d7e2116137a081ffe0fa8c82aa8
 ```
 
 Create signature:  
