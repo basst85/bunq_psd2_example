@@ -47,7 +47,7 @@ jQIDAQAB
 
 Create signature for **StringToSign.txt** contents, signed with the private PSD2 key:  
 ```openssl dgst -sha256 -sign psd2_key.pem -out JsonBodySignature.txt StringToSign.txt```  
-Encode signature as Base64: 
+Encode signature as Base64:  
 ```openssl enc -base64 -in JsonBodySignature.txt -out JsonBodySignatureEncoded.txt -A```  
 
 Base64 encoded signature inside **JsonBodySignatureEncoded.txt**:  
