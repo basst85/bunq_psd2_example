@@ -5,7 +5,8 @@ bunq PSD2 example, get PSP credential via public API
 Use real eIDAS certificate in production**
 
 Create a pseudo PSD2 certificate for the Sandbox:  
-```openssl req -x509 -newkey rsa:4096 -keyout psd2_key.pem -out psd2_cert.pem -days 365 -nodes -subj '/CN=My App PISP AISP/C=NL'```
+```openssl req -x509 -newkey rsa:4096 -keyout psd2_key.pem -out psd2_cert.pem -days 365 -nodes -subj '/CN=My App PISP AISP/C=NL'```  
+❗ **Always change the value of the "Common Name" (CN=) when creating a certificate** ❗
 
 PSD2 private key: See contents of **psd2_key.pem**  
 PSD2 public certificate: See contents of **psd2_cert.pem**  
